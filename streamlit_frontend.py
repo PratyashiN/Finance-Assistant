@@ -323,6 +323,8 @@ elif selected_page == " Expense Trends":
             st.info("No expenses yet.")
     except Exception as e:
         st.error(f"Error loading trends: {e}")
+        
+        #--- Forecast & Advice ---#
 
 elif selected_page == " Forecast & Advice":
     st.title(" Forecast & Advice")
